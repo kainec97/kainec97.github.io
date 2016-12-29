@@ -1,0 +1,199 @@
+/* General text and image formatting */
+body {font-family: Verdana, Helvetica, "Times New Roman", sans-serif;
+     font-size: 100%;
+     background: linear-gradient(141deg, #66e0ff 0%, #b3f0ff 51%, #b3f0ff);
+     background-color: #bcf2ff;
+}
+h2{padding-left: 4px;
+	padding-bottom: 2px;
+	font-size: 250%;
+    text-align: left;
+}
+h6{text-align: center;
+}
+img {display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Div formatting */
+#bannerImage{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header
+{
+	background: linear-gradient(to left, #464646,#272727);
+	text-align: left;
+	font-family: Couture;
+	background-color: #222222;
+	color: #ffffff;
+}
+#container {min-height: 1024px;
+    min-width: 768px;
+    text-align: center;
+}
+#containercontact{max-width: 1920px;
+}
+
+#navigation{
+    display: inline-block;
+}
+#content{width:50%; 
+         min-width: 940px;
+         min-height: 200px; 
+         padding-bottom:10px;
+         margin-left:auto;
+         margin-right:auto;
+         background-color: #ffffff;
+         box-shadow: 5px 5px 5px #888888;
+		 text-align: justify;
+         /* Background image courtesy of: http://subtlepatterns.com/ (available free to use) */
+}
+
+#content_text{
+		 padding-left: 10px;
+		 padding-right: 10px;
+}
+
+#contentcontact{min-width: 480px;
+               min-height: 600px; 
+               padding-left:10px;
+               padding-right:10px;
+               padding-top:10px;
+               padding-bottom:10px;
+               margin-left:150px;
+               border: 5px solid #000000;
+               background-color: #c0c0c0;
+               box-shadow: 10px 10px 5px #888888;
+         /* Background image courtesy of: http://subtlepatterns.com/ (available free to use) */
+}
+#quicklinks{float: right;
+            width: 10%;
+            padding-left: 10px;
+            padding-right: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #3f3f3f;
+            color: #e5e5e5;
+            font-size: 80%;
+}
+#quicklinks a:visited {color: #828282;
+}
+#quicklinks a:link{color: #e5e5e5;
+}
+#quicklinks a:hover{color: #a5a5a5;
+}
+#quicklinks a:active{color:#6b6b6b;
+}
+/* Other ID declaration and formatting */
+#logo {display:block;
+      border: 1px solid #000000;
+	   background-color: #444444;
+      box-shadow: 2px 2px 2px #d3d3d3;
+      margin-right: 30px;
+}
+#footernav{text-align: center;
+}
+#footernav a{margin-right: 20px;
+            display: inline-block;
+}
+#footernav a:link{text-decoration: none; 
+                     color: #255255;
+}
+#footernav a:visited{text-decoration: none;
+                     color: #7A7A7A;
+}
+#footernav a:hover{
+                              text-shadow: 1px 1px #888888;
+}
+
+/* Table formatting */
+table{margin-left: auto;
+     margin-right: auto;
+     border-collapse: collapse;
+     text-align: center;
+     table-layout: initial;
+
+}
+th, td{border: 2px solid #000000;
+     padding-left: 2px;
+     padding-right: 2px;
+}
+tr:nth-of-type(odd) {
+    background: #d3d3d3;
+}
+/* List formatting */
+ol {list-style-type: lower-roman
+}
+li {
+    float: left;
+    text-decoration: none;
+    padding-left: 1px;
+    padding-right: 6px;
+}
+ul {
+    list-style-type: none;
+}
+/* Dropdown Button */
+li a, .dropbtn{
+    background-color: #464646;
+    color: white;
+    padding: 16px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+}
+
+li a, .dropbtn{
+    background-color: #464646;
+    color: white;
+    padding: 16px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus, li a:hover {
+    background-color: #272727;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 153px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
