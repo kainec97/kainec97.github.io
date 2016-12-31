@@ -1,8 +1,0 @@
-C:\Users\Kaine\Desktop\Uni\Session 1 2016\Object Oriented Program Development\Assignment 1\kcochr13_CSC10210_Ass1\kcochr13_CSC10210_Ass1\bin\Debug\kcochr13_CSC10210_Ass1.exe.config
-C:\Users\Kaine\Documents\Uni\Session 1 2016\Object Oriented Program Development\Assignment 1\kcochr13_CSC10210_Ass1\kcochr13_CSC10210_Ass1\bin\Debug\kcochr13_CSC10210_Ass1.exe.config
-C:\Users\Kaine\Documents\Uni\Session 1 2016\Object Oriented Program Development\Assignment 1\Part 1\kcochr13_CSC10210_Ass1\kcochr13_CSC10210_Ass1\bin\Debug\kcochr13_CSC10210_Ass1.exe.config
-C:\Users\Kaine\Documents\Uni\Session 1 2016\Object Oriented Program Development\Assignment 1\Part 1\kcochr13_CSC10210_Ass1\kcochr13_CSC10210_Ass1\bin\Debug\kcochr13_CSC10210_Ass1.exe
-C:\Users\Kaine\Documents\Uni\Session 1 2016\Object Oriented Program Development\Assignment 1\Part 1\kcochr13_CSC10210_Ass1\kcochr13_CSC10210_Ass1\bin\Debug\kcochr13_CSC10210_Ass1.pdb
-C:\Users\Kaine\Documents\Uni\Session 1 2016\Object Oriented Program Development\Assignment 1\Part 1\kcochr13_CSC10210_Ass1\kcochr13_CSC10210_Ass1\obj\Debug\kcochr13_CSC10210_Ass1.csprojResolveAssemblyReference.cache
-C:\Users\Kaine\Documents\Uni\Session 1 2016\Object Oriented Program Development\Assignment 1\Part 1\kcochr13_CSC10210_Ass1\kcochr13_CSC10210_Ass1\obj\Debug\kcochr13_CSC10210_Ass1.exe
-C:\Users\Kaine\Documents\Uni\Session 1 2016\Object Oriented Program Development\Assignment 1\Part 1\kcochr13_CSC10210_Ass1\kcochr13_CSC10210_Ass1\obj\Debug\kcochr13_CSC10210_Ass1.pdb
