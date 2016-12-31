@@ -4,25 +4,17 @@ body {font-family: Verdana, Helvetica, "Times New Roman", sans-serif;
      background: linear-gradient(141deg, #66e0ff 0%, #b3f0ff 51%, #b3f0ff);
      background-color: #bcf2ff;
 }
-
-h2{padding-left: 5px;
+h2{padding-left: 4px;
+	padding-bottom: 2px;
 	font-size: 250%;
     text-align: left;
 }
-
-h3
-{
-     background-color: grey;
-}
-
 h6{text-align: center;
 }
-
 img {display:block;
     margin-left: auto;
     margin-right: auto;
 }
-
 /* Div formatting */
 #bannerImage{
     text-align: center;
@@ -37,25 +29,10 @@ img {display:block;
 	background-color: #222222;
 	color: #ffffff;
 }
-
-#assignment_info_header
-{
-     background: linear-gradient(to left, #464646,#272727);
-	text-align: left;
-	font-family: Couture;
-	background-color: #222222;
-	color: #ffffff;
-     font-size: 125%;
-     padding-top: 5px;
-     padding-left: 5px; 
-     padding-bottom: 5px;
-}
-
 #container {min-height: 1024px;
     min-width: 768px;
     text-align: center;
 }
-
 #containercontact{max-width: 1920px;
 }
 
@@ -70,7 +47,8 @@ img {display:block;
          margin-right:auto;
          background-color: #ffffff;
          box-shadow: 5px 5px 5px #888888;
-	    text-align: justify;         
+		 text-align: justify;
+         /* Background image courtesy of: http://subtlepatterns.com/ (available free to use) */
 }
 
 #content_text{
@@ -87,7 +65,8 @@ img {display:block;
                margin-left:150px;
                border: 5px solid #000000;
                background-color: #c0c0c0;
-               box-shadow: 10px 10px 5px #888888;         
+               box-shadow: 10px 10px 5px #888888;
+         /* Background image courtesy of: http://subtlepatterns.com/ (available free to use) */
 }
 #quicklinks{float: right;
             width: 10%;
@@ -107,20 +86,10 @@ img {display:block;
 }
 #quicklinks a:active{color:#6b6b6b;
 }
-
-#assignment_info
-{
-     background-color: #68E1FF;
-     color: white;
-     padding-bottom: 5px;
-     padding-left: 5px;
-     padding-right: 5px;
-}
-
 /* Other ID declaration and formatting */
 #logo {display:block;
       border: 1px solid #000000;
-	 background-color: #444444;
+	   background-color: #444444;
       box-shadow: 2px 2px 2px #d3d3d3;
       margin-right: 30px;
 }
@@ -166,7 +135,6 @@ li {
 ul {
     list-style-type: none;
 }
-
 /* Dropdown Button */
 li a, .dropbtn{
     background-color: #464646;
