@@ -3,95 +3,109 @@
      <head>
           <title> Home - Kaine Cochrane's Electronic Portfolio</title>
           <meta charset="utf-8">
-          <meta name="description" content="Kaine Cochrane's Electronic Portfolio. This website is an 
+          <meta name="description" content="Kaine Cochrane's Electronic Portfolio. This website is an
           electronic portfolio which puts on display all my skills, IT or otherwise.">
           <meta name="keywords" content="personal,portfolio,university,student,IT,information,technology">
           <meta name="author" content="Kaine Cochrane">
           <link rel="stylesheet" href="css/styles.css">
           <link rel="shortcut icon" href="img/favicon.ico">
-     </head> 
-     <body> 
-          <div id="container"> 
-               <img id="bannerImage" src="img/WebsiteBanner.png" height="118" width="221">
-                 
-               <!-- div for navigation bar -->
-               <div id="navigation">
-                    <ul>
-                         <li><a href="index.html">Home</a></li>
-                         <li><a href="about_me.html">About Me</a></li>
-                         <li><a href="documents.html">Documents</a></li>
-                         <li><a href="#">Skill Demo.</a></li>
-                         <li><a href="contact.html">Contact</a></li>
-                    </ul>
-               </div>
-               
-               <!-- div for centre column (Content) -->
-               <div id="content">
-                    <div id="header">
-                         <h2> Skill Demonstration </h2>
-                    </div>
-                    <div id="content_text">
-                         <p>This section of the site is to demonstrate the various personal and scholastic projects I have undertaken. Mainly this will include assignments from university that I feel proud of, as well as things I've experimented with in my spare time (such as 3D modelling).</p>
-                    </div>
-               </div>
-               <br><br>
-               <div id="content">
-                    <div id="assignment_info_header">
-                         <span style="color: yellow";>Object Oriented Program Development</span> <br> 
-                         Assignment 1 - Menu
-                    </div>
-                    <div id="content_text">
-                         <p> This assignment was the first for this OOP unit. It was undertaken in Semester 1 of my second year studying my Bachelor of IT, and involved the 
-                         creation of a simple command prompt menu by the user. The user is prompted to enter in the menu header and items, which is then formatted and 
-                         displayed. Finally, the user is prompted to select an item from the menu, which is then displayed back to them in a sentence. The user is given the 
-                         option to restart the program once this is complete. </p>
-                         <br>
-                         <a href="docs/Cochrane_Kaine_MenuProgram.exe">Menu Program .exe</a> (8KB)
-                         <br>
-                         <a href="docs/Cochrane_Kaine_MenuProgram.zip">Menu Program .zip</a> (Source Code/Files, 45KB)
-                    </div>
-               </div>
-               <br><br>
-               <div id="content">
-                    <div id="assignment_info_header">
-                         <span style="color: #69E0FF";>Digital Media I</span> <br>
-                         Assignment 1 - Web Page and Poster Designs
-                    </div>
-                    <div id="content_text">
-                         <p> This next assignment required us to design a poster and web page of our choice using Photoshop. We had to create sketches initially before finalising the design. Each individal layer had to be organised in folders and named before completion, also. </p>
-                         <br>
-                         <a href="docs/Cochrane_Kaine_WebPage_PosterDesign.zip">Web Page and Poster Design</a> (.jpg files, 7.2MB)
-                         <br>
-                         <a href="docs/Cochrane_Kaine_WebPage_PosterDesign_PSD.zip">Web Page and Poster Design</a> (.psd files, 64.2MB)
-                    </div>
-               </div>
-               <br><br>
-               <div id="content">
-                    <div id="assignment_info_header">
-                         <span style="color: yellow";>Object Oriented Program Development</span> <br>
-                         Assignment 2 - Interfaces, Abstract Classes, Collections & LINQ
-                    </div>
-                    <div id="content_text">
-                    <p> The second assignment for the OOP unit I took involved demonstrating our knowledge of interfaces, abstract classes, collections & LINQ in C#. The first part of the assignment was a program which was written to demonstrate knowledge of polymorphism, abstract classes and interfaces. Meanwhile, the second part of the assignment was to demonstrate knowledge of collections (Dictionary) and LINQ. </p>
+                    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+     </head>
+     <body>
+    <div id="container">
+        <h1>Kaine Cochrane's Portfolio</h1>
+
+        <!-- div for navigation bar -->
+        <div id="navigation">
+            <div id="navItems">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_me.html">About Me</a></li>
+                <li class="dropdown">
+                <a id="dropdownHeader" href="javascript:void(0)">Documents</a>
+                <div class="dropdown-content">
+                    <a href="documents.html">Résumé</a>
+                    <a class="current" href="#">Skill Demo.</a>
+                </div>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+        </div>
+
+        <!-- div for centre column (Content) -->
+        <div id="content">
+            <div id="header">
+                <h2> Skill Demonstration </h2>
+            </div>
+            <div id="content_text">
+                <p>This section of the site is to demonstrate the various personal and scholastic projects I have undertaken. Mainly this will include assignments from university that I feel proud of, as well as things I've experimented with in my spare time (such as 3D modelling).</p>
+            </div>
+        </div>
+
+        <br><br>
+        <div class="demoContentOdd">
+            <div class="assignment_info_header">
+                <span style="color: yellow">Object Oriented Program Development</span> <br>
+                Assignment 1 - Menu
+            </div>
+            <div id="contentText">
+                <p> This assignment was the first for this OOP unit. It was undertaken in Semester 1 of my second year studying my Bachelor of IT, and involved the
+                creation of a simple command prompt menu by the user. The user is prompted to enter in the menu header and items, which is then formatted and
+                displayed. Finally, the user is prompted to select an item from the menu, which is then displayed back to them in a sentence. The user is given the
+                option to restart the program once this is complete.
+                </p>
+
+                <br>
+                <div class="downloadLinks">
+                    <a href="docs/Cochrane_Kaine_MenuProgram.exe"><button id="downloadButton">Download Menu Program</button></a>
+                    <a href="docs/Cochrane_Kaine_MenuProgram.zip"><button id="downloadButton">Download Source Code</button></a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="demoContentEven">
+            <div id="assignment_info_header">
+                <span style="color: #69E0FF";>Digital Media I</span> <br>
+                Assignment 1 - Web Page and Poster Designs
+            </div>
+            <div id="contentText">
+                <p> This next assignment required us to design a poster and web page of our choice using Photoshop. We had to create sketches initially before finalising the design. Each individal layer had to be organised in folders and named before completion, also. </p>
+                <br>
+                <div class="downloadLinks">
+                    <a href="docs/Cochrane_Kaine_WebPage_PosterDesign.zip">Web Page and Poster Design</a> (.jpg files, 7.2MB)
                     <br>
-                    <a href="docs/Cochrane_Kaine_InterfacesEtc.zip">Assignment Part 1 & 2</a> (.zip, 105KB)
-                    </div>
-               </div>
-               <br><br>
-               <!-- <div id="content">
-                    <div id="assignment_info_header">
-                         <span style="color: orange";>Web Development II</span> <br>
-                         Assignment 2 - 
-                    </div>
-               </div>  -->  
-          </div>
-                
+                    <a href="docs/Cochrane_Kaine_WebPage_PosterDesign_PSD.zip">Web Page and Poster Design</a> (.psd files, 64.2MB)
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="demoContentOdd">
+            <div id="assignment_info_header">
+                <span style="color: yellow">Object Oriented Program Development</span> <br>
+                Assignment 2 - Interfaces, Abstract Classes, Collections & LINQ
+            </div>
+            <div id="contentText">
+                <p> The second assignment for the OOP unit I took involved demonstrating our knowledge of interfaces, abstract classes, collections & LINQ in C#. The first part of the assignment was a program which was written to demonstrate knowledge of polymorphism, abstract classes and interfaces. Meanwhile, the second part of the assignment was to demonstrate knowledge of collections (Dictionary) and LINQ. </p>
+                <br>
+                <a href="docs/Cochrane_Kaine_InterfacesEtc.zip">Assignment Part 1 & 2</a> (.zip, 105KB)
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- <div id="content">
+    <div id="assignment_info_header">
+    <span style="color: orange";>Web Development II</span> <br>
+    Assignment 2 -
+    </div>
+    </div>  -->
+    </div>
+
                <!-- div for the footer -->
                <br><br>
                <div id="footernav">
-                    <h5> 
+                    <h5>
                          Kaine Cochrane 2016
-                    </h5> 
+                    </h5>
                </div>
           </div>
      </body>

@@ -3,27 +3,34 @@
      <head>
           <title> Home - Kaine Cochrane's Electronic Portfolio</title>
           <meta charset="utf-8">
-          <meta name="description" content="Kaine Cochrane's Electronic Portfolio. This website is an 
+          <meta name="description" content="Kaine Cochrane's Electronic Portfolio. This website is an
           electronic portfolio which puts on display all my skills, IT or otherwise.">
           <meta name="keywords" content="personal,portfolio,university,student,IT,information,technology">
           <meta name="author" content="Kaine Cochrane">
           <link rel="stylesheet" href="css/styles.css">
           <link rel="shortcut icon" href="img/favicon.ico">
-     </head> 
+                    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+     </head>
 
-     <body> 
+     <body>
           <div id="container">
-               <img id="bannerImage" src="img/WebsiteBanner.png" height="118" width="221">
-               
+               <h1>Kaine Cochrane's Portfolio</h1>
+
                <!-- div for navigation bar -->
                <div id="navigation">
-                    <ul>
-                         <li><a href="index.html">Home</a></li>
-                         <li><a href="about_me.html">About Me</a></li>
-                         <li><a href="documents.html">Documents</a></li>
-                         <li><a href="skill_demo.html">Skill Demo.</a></li>
-                         <li><a href="#">Contact</a></li>
-                    </ul>
+                   <div id="navItems">
+                   <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="about_me.html">About Me</a></li>
+                       <li class="dropdown">
+                       <a id="dropdownHeader" href="javascript:void(0)">Documents</a>
+                       <div class="dropdown-content">
+                           <a href="documents.html">Résumé</a>
+                           <a href="skill_demo.html">Skill Demo.</a>
+                       </div>
+                       <li><a class="current" href="#">Contact</a></li>
+                   </ul>
+                   </div>
                </div>
 
                <!-- div for centre column (Content) -->
@@ -43,7 +50,7 @@
                          My mobile phone number is: 0497 970 847.
                          <br><br>
                          <b>If you want to contact the University I am attending:</b><br>
-                         <a href="http://scu.edu.au/about/index.php/18/" target="_blank">Southern Cross University 
+                         <a href="http://scu.edu.au/about/index.php/18/" target="_blank">Southern Cross University
                          Contact Page</a>
                          <br>
                          </p>
@@ -52,9 +59,9 @@
                <!-- div for the footer -->
                <br><br>
                <div id="footernav">
-                    <h5> 
+                    <h5>
                          Kaine Cochrane 2016
-                    </h5> 
+                    </h5>
                </div>
           </div>
      </body>
