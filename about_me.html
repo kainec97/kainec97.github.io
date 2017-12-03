@@ -3,26 +3,33 @@
      <head>
           <title> Home - Kaine Cochrane's Electronic Portfolio</title>
           <meta charset="utf-8">
-          <meta name="description" content="Kaine Cochrane's Electronic Portfolio. This website is an 
+          <meta name="description" content="Kaine Cochrane's Electronic Portfolio. This website is an
           electronic portfolio which puts on display all my skills, IT or otherwise.">
           <meta name="keywords" content="personal,portfolio,university,student,IT,information,technology">
           <meta name="author" content="Kaine Cochrane">
           <link rel="stylesheet" href="css/styles.css">
           <link rel="shortcut icon" href="img/favicon.ico">
-     </head> 
-     <body> 
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+     </head>
+     <body>
           <div id="container">
-               <img id="bannerImage" src="img/WebsiteBanner.png" height="118" width="221">
-               
+               <h1>Kaine Cochrane's Portfolio</h1>
+
                <!-- div for navigation bar -->
                <div id="navigation">
-                    <ul>
-                         <li><a href="index.html">Home</a></li>
-                         <li><a href="#">About Me</a></li>
-                         <li><a href="documents.html">Documents</a></li>
-                         <li><a href="skill_demo.html">Skill Demo.</a></li>
-                         <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                   <div id="navItems">
+                   <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a class="current" href="#">About Me</a></li>
+                       <li class="dropdown">
+                       <a id="dropdownHeader" href="javascript:void(0)">Documents</a>
+                       <div class="dropdown-content">
+                           <a href="documents.html">Résumé</a>
+                           <a href="skill_demo.html">Skill Demo.</a>
+                       </div>
+                       <li><a href="contact.html">Contact</a></li>
+                   </ul>
+                   </div>
                </div>
 
                <!-- div for centre column (Content) -->
@@ -32,53 +39,50 @@
                     </div>
 
                     <div id="content_text">
-                         <img src="img/kainec.jpg" height="128px" width="128px" title="Photo of Me" 
-                         alt="Photo of Me" style="float: right; border: 3px solid #222222; 
-                         border-radius: 5px; margin: 10px; margin-top: 35px;">
+                         <img id = "photoOfMe" src="img/kainec.jpg" height="128px" width="128px" title="Photo of Me"
+                         alt="Photo of Me" style="float: right; border: 3px solid #222222;
+                         margin: 10px; margin-top: 35px;">
                          <h3> General Information </h3>
-                         My name is Kaine Cochrane. I am currently 19 years old and was born on the 
-                         11th of October, 1997. At the moment I am living independently in South Brisbane, 
-                         and planning to complete my studies through distance education 
-                         (at <a href="http://www.scu.edu.au/" target="_blank">Southern Cross University</a>)
+                         My name is Kaine Cochrane. I am currently 19 years old and was born on the
+                         11th of October, 1997. At the moment I am living on the Gold Coast,
+                         and planning to complete my studies at <a href="http://www.scu.edu.au/" target="_blank">Southern Cross University</a>
                          by February 2018.
                          <br><br>
                          I graduated from Elanora State High School at the end of 2014.
-                         During my final year of study there, I received direct entry into Southern Cross 
-                         University, and started my Bachelor of IT in early 2015. 
+                         During my final year of study there, I received direct entry into Southern Cross
+                         University, and started my Bachelor of IT in early 2015.
                          <br>
                          <h3> Hobbies and Interests </h3>
                          <p>
-                              My main interest is IT (such as dealing with computer hardware, software and 
-                              video games) although I have an interest in music (both in terms of recreation and 
-                              production, although the latter I have not delved into too deeply as of  yet) and art 
-                              (although I have very limited experience in drawing but wish to pursue it as a hobby 
-                              sometime soon) as well. I’ve been interested in IT for practically my whole life, using 
-                              computers since I was around 5 years old and recently building a computer for a friend 
-                              and my mother (both of which are still running well). My interest in videos 
+                              My main interest is IT (such as dealing with computer hardware, software and
+                              video games) although I have an interest in music (both in terms of recreation and
+                              production, although the latter I have not delved into too deeply as of  yet) and art
+                              (although I have very limited experience in drawing but wish to pursue it as a hobby
+                              sometime soon) as well. I’ve been interested in IT for practically my whole life, using
+                              computers since I was around 5 years old and recently building a computer for a friend
+                              and my mother (both of which are still running well). My interest in videos
                               games stems from the fact I have been playing them from a young age, and dabbled in
-                              some basic video game development both at school and at home (as well as some 3D 
-                              modelling). 
+                              some basic video game development both at school and at home (as well as some 3D
+                              modelling).
                          </p>
 
                          <a id="plans"></a>
                          <h3> Plans for the Future </h3>
-                         So, as you may expect, I’m striving to find a career in IT at some point in my life 
+                         So, as you may expect, I’m striving to find a career in IT at some point in my life
                          (hopefully not long after I graduate from University). I have completed my first and
-                         (almost) second year, and expecting to complete the entire three year course. 
-                         I'm hoping to achieve a career in IT by: 
+                         (almost) second year, and expecting to complete the entire three year course.
+                         I'm hoping to achieve a career in IT by:
                          <br><br>
-                         Finding a part-time job that relates to IT in some way (although not compulsory 
+                         Finding a part-time job that relates to IT in some way (although not compulsory
                          it would assist greatly),
                          <br>
                          completing the Bachelor of IT course successfully and achieving high grades, and
                          <br>
-                         searching for full-time employment in the field not long after graduating. 
-
-
+                         searching for full-time employment in the field not long after graduating.
                          <br>
                          <p>
-                              At the time of writing (December 2016), the career choice I am most invested in is 
-                              web design/development. While this isn't a concrete decision, it's the one I am 
+                              At the time of writing (December 2016), the career choice I am most invested in is
+                              web design/development. While this isn't a concrete decision, it's the one I am
                               currently most confident with.
                          </p>
                          <br>
@@ -88,9 +92,9 @@
                <!-- div for the footer -->
                <br><br>
                <div id="footernav">
-                    <h5> 
-                         Kaine Cochrane 2016
-                    </h5> 
+                    <h5>
+                         Kaine Cochrane 2017
+                    </h5>
                </div>
           </div>
      </body>
