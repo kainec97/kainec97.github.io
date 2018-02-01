@@ -12,6 +12,26 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
 		<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous"/>
+		<script>
+			var isPageOne = true;
+
+			function changePage() {
+				var pageOne = document.getElementById("dC1");
+				var pageTwo = document.getElementById("dC2");
+				if (isPageOne == true) {
+					pageOne.style.display = "none";
+					console.log(pageOne);
+					pageTwo.style.display = "block";
+					console.log(pageTwo);
+					isPageOne = false;
+				}
+				else if (isPageOne == false) {
+					pageOne.style.display = "block";
+					pageTwo.style.display = "none";
+					isPageOne = true;
+				}
+			}
+		</script>
 	</head>
 	<body>
 		<div id="container">
@@ -44,7 +64,7 @@
 				</div>
 			</div>
 
-			<div id="demoContainer">
+			<div class="demoContainer" id="dC1">
 				<div class="demoContent">
 					<div class="assignmentInfoHeader">
 						<span style="color: yellow"><i class="fas fa-code"></i> Object Oriented Program Development (C#/Visual Studio)</span> <br>
@@ -91,8 +111,23 @@
 						</div>
 					</div>
 				</div>
+				<br>
+				<a class="button-xlarge pure-button pure-button-primary" onclick="changePage()">Next Page <i class="fas fa-arrow-alt-circle-right"></i></a>
 			</div>
 			
+			<div class="demoContainer" id="dC2" style="display:none">
+				<div class="demoContent">
+					<div class="assignmentInfoHeader">
+						<span style="color: orange"><i class="fab fa-js-square"></i> Interactive Multimedia Application Development II - Space Invaders</span>
+					</div>
+					<div id="contentText">
+						<p>Test</p>
+					</div>
+				</div>
+				<br>
+				<a class="pure-button pure-button-primary" onclick="changePage()"><i class="fas fa-arrow-alt-circle-left"></i> Previous Page </a>
+			</div>
+		
 			<!-- div for the footer -->
 			<br><br>
 			<div id="footer">
