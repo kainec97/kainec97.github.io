@@ -165,7 +165,11 @@ img {display:block;
     background-color: #ffffff;
     box-shadow: 5px 5px 5px #888888;
     text-align: left;
-	margin-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    min-width: 940px;
 }
 .demoThumb {
 	width: 20%;
